@@ -56,25 +56,44 @@
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 @media screen and (min-width:700px){
   .icon-menu {
     display: none;
   }
+
+  .main-nav {
+    height:200px;
+    display: block;
+  }
+
+  .main-nav ul {
+    display: block;
+  }
+
+  .main-nav li {
+    display: block:
+  }
+
   header ul {
     display: block;
     width: auto;
   }
   header li{
-    padding-left: 25px;
+    padding-left: 20px;
     display: inline;
   }
   header a {
-    padding-left: 8%;
+    padding-left: 7%;
   }
   body {
     background-color: white;
   }
 }
+
 
 /* TODO: Now add styles for how things should look on a larger screen:
          - Hide the hamburger.
